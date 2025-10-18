@@ -15,9 +15,11 @@ Usage:
 
 Then, when using the library in Pythonista:
 
+```python
 import sys
 sys.path.insert(0, r'./lib')
 import your_package
+```
 
 * Some libraries use subprocess, which Pythonista doesn't support.
 * Pythonista-pip downloads sdist only, not wheels.
