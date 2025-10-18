@@ -1,9 +1,9 @@
 Pythonista-pip downloads a Python library and all its dependencies into a lib folder in your project. Allowing use of packages that arent natively built into Pythonista.
 
 Usage:
-	1.	Run the script.
-	2.	Enter the package name.
-	3.	Pythonista-pip downloads the package and all of its dependencies (even sub-dependencies).
+1.	Run the script.
+2.	Enter the package name.
+3.	Pythonista-pip downloads the package and all of its dependencies (even sub-dependencies).
 
 Then, when using the library in Pythonista:
 
