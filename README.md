@@ -1,5 +1,13 @@
 Pythonista-pip downloads a Python library and all its dependencies into a lib folder in your project. Allowing use of packages that arent natively built into Pythonista.
 
+Simple installer:
+Create a file named install.py, paste the contents and run it.
+`
+import urllib.request
+urllib.request.urlretrieve("https://raw.githubusercontent.com/DeveloperEclipse/Pythonista-pip/refs/heads/main/src/pyistapip.py", pyistapip.py)
+print(f"Run {filename} to begin")
+`
+
 Usage:
 1.	Run the script.
 2.	Enter the package name.
