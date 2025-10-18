@@ -5,7 +5,7 @@ Create a file named install.py, paste the contents and run it.
 ```python
 import urllib.request
 urllib.request.urlretrieve("https://raw.githubusercontent.com/DeveloperEclipse/Pythonista-pip/refs/heads/main/src/pyistapip.py", "pyistapip.py")
-print(f"Run {filename} to begin")
+print(f"Run pyistapip.py to begin")
 ```
 
 Usage:
