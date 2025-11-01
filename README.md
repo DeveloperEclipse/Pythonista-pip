@@ -2,7 +2,7 @@ Pythonista-pip downloads a Python library and all its dependencies into a lib fo
 
 Simple installer:
 Create a file named install.py, paste the contents and run it.
-```python
+```py
 import urllib.request
 urllib.request.urlretrieve("https://raw.githubusercontent.com/DeveloperEclipse/Pythonista-pip/refs/heads/main/src/pyistapip.py", "pyistapip.py")
 print(f"Run pyistapip.py to begin")
